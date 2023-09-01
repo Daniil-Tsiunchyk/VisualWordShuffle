@@ -1,0 +1,2 @@
+# VisualWordShuffle
+ VisualWordShuffle is a web application designed to visually demonstrate the process of letter-shuffling within words. Based on the linguistic theory that words with shuffled letters are still readable as long as the first and last letters remain in place, this project serves not only to showcase this fascinating linguistic feature but also to offer a hands-on experience in web interface development.
