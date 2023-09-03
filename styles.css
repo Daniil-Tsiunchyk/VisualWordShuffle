@@ -46,3 +46,15 @@ body {
 	text-align: center;
 	width: 300px;
 }
+
+.animated-text {
+	transition: color 0.5s ease;
+}
+
+.animated-input {
+	transition: border-color 0.5s ease;
+}
+
+.animated-input:focus {
+	border-bottom-color: #555;
+}

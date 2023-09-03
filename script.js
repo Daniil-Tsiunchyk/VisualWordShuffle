@@ -1,4 +1,3 @@
-// Функция для перемешивания букв в слове
 function shuffleWord(word) {
     let wordArr = word.split('');
     let first = wordArr.shift();
@@ -11,7 +10,6 @@ function shuffleWord(word) {
     return first + wordArr.join("") + last;
 }
 
-// Функция для анимации текста
 function shuffleLetters(el, text) {
     let str = text.split('');
     let len = str.length;
@@ -59,11 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     shuffleLetters(container, container.textContent);
 
-    userText.addEventListener('click', function () {
-        userText.value = "";
-    });
-
-    userText.addEventListener('keypress', function (e) {
+    userText.addEventListener('keydown', function (e) {
         if (e.keyCode === 13 || e.which === 13) {
             let words = userText.value.split(' ');
             let result = words.map(shuffleWord).join(' ');
@@ -76,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setTimeout(function () {
         shuffleLetters(container, "Теперь попробуйте сами");
-        userText.value = "Введите текст и нажмите enter..";
         userText.style.display = "block";
     }, 2000);
 });
