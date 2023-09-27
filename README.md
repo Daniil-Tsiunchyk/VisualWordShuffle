@@ -10,7 +10,7 @@ VisualWordShuffle aims to provide a visual demonstration of how the readability 
 
 ### :rocket: Try It Live!
 
-Experience the application live [here](https://neural-enigma.github.io/VisualWordShuffle/).
+Experience the application live [here](https://Daniil-Tsiunchyk.github.io/VisualWordShuffle/).
 
 ## Features
 
@@ -23,7 +23,7 @@ Experience the application live [here](https://neural-enigma.github.io/VisualWor
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/Neural-Enigma/VisualWordShuffle.git
+    git clone https://github.com/Daniil-Tsiunchyk/VisualWordShuffle.git
     ```
 
 2. **Open the `index.html` file in your web browser.**
